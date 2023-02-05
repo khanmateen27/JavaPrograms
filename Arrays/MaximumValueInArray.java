@@ -5,6 +5,7 @@ public class MaximumValueInArray {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the size of an Array: ");
         int size = in.nextInt();
+        in.close();
         return size;
     }
     static int[] inputArray(int size){
@@ -14,6 +15,7 @@ public class MaximumValueInArray {
         for(int i = 0 ; i < arr.length ; i++){
             arr[i] = in.nextInt();
         }
+        in.close();
         return arr;
     }
     static void maxValueInArray(int[] arr){
