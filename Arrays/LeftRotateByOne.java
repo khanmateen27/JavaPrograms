@@ -15,7 +15,6 @@ public class LeftRotateByOne {
         }
         return arr;
     }
-
     static void leftRotateByOne(int[] arr , int size){
         int n = size;
         int temp = arr[0];
@@ -29,8 +28,6 @@ public class LeftRotateByOne {
             System.out.print(arr[i] + " ");
         }
     }
-
-
     public static void main(String[] args) {
         int size = inputSize();
         int arr[] = inputArray(size);
